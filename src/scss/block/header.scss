@@ -1,0 +1,16 @@
+@use "../mixins/to-desktop.scss" as *;
+@use "../mixins/desktop.scss" as *;
+
+.header{
+    background-color: var(--Desaturated-Dark-Cyan);
+    background-image: url("../assets/images/bg-header-mobile.svg");
+    background-repeat: no-repeat;
+    height: 156px;
+    margin-bottom: 50px;
+
+    @include desktop{
+        background-image: url("../assets/images/bg-header-desktop.svg");
+        background-position: center;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,28 @@
+@use "../config/variables" as *;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Light-Grayish-Cyan-background);
+    // background-color: red;
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+   
+}
+
+h2{
+    margin: 0
+}
+
+span{
+    margin: 0;
+    padding: 0;
+}
+
+// main{
+//     position: relative;
+// }
+
+

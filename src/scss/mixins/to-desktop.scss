@@ -1,0 +1,7 @@
+@use "../config/variables" as *;
+
+@mixin to-desktop() {
+  @media screen and (max-width: $desktop - 1px) {
+    @content;
+  }
+}

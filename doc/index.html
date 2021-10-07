@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>job page</title>
+  </head>
+  <body> 
+    <header class="header"></header>
+    <main class="main" id="main-card">
+      <div class="card card__filter disable-filter" id="filter"> 
+        <div class="filter__clear">Clear</div>
+        <div class="filter__tag"></div>
+      </div>
+      <template id="card-template">
+        <div class="card">
+          <div class="card-header-body">
+            <div class="card__header"> <img class="card__img" src="./assets/images/photosnap.svg" alt="logo">
+              <h2 class="card__title">Photosnap</h2><span class="card__label disable-new" id="new">NEW!</span><span class="card__label disable-featured" id="featured">FEATURED</span>
+            </div>
+            <div class="card__body"> 
+              <p class="card__position">Senior Frontend Developer </p>
+              <div class="card__info"> <span class="card__job-info postedAt">1d ago</span><span class="card__job-info contract">full time</span><span class="card__job-info location">USA only</span></div>
+            </div>
+          </div>
+          <div class="card__footer"> <span class="tag tag--hover role">frontend</span><span class="tag tag--hover level">senior</span></div>
+        </div>
+      </template>
+    </main>
+    <script src="js/script.js"> </script>
+  </body>
+</html>
